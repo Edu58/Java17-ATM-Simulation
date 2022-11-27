@@ -47,12 +47,6 @@ public class Account {
     }
 
     /**
-     * Returns account summary including the account uuid, balance and name
-     *
-     * @return account summary
-     */
-
-    /**
      * Adds a transaction to the transaction ArrayList
      *
      * @param amount amount transacted
