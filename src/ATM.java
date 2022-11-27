@@ -97,6 +97,8 @@ public class ATM {
         //redisplay the menu unless the user quits
         if (choice != 5) {
             ATM.printUserMenu(theUser, sc);
+        } else {
+            System.exit(1);
         }
     }
 
